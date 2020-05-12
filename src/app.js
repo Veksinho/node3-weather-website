@@ -5,7 +5,7 @@ const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
 
 const app = express() // new express application
-const port = procces.env.PORT || 3000 // 3000 localy, when herolu deosn't exist
+const port = process.env.PORT || 3000 // 3000 localy, when herolu deosn't exist
 
 // Define paths for Express config
 const publicDirectoryPath = path.join(__dirname, '../public')

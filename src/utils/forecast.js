@@ -15,7 +15,7 @@ const forecast = (longitude, latitude, callback) => {
             const minTemp = body.main.temp_min
             const maxTemp = body.main.temp_max
 
-            callback(undefined, `Weather description in Serbian: ${desc}. It is currently ${temp} degrees out. Temperature high today is ${maxTemp} degrees, while the minimum temperature is ${minTemp} degrees. Air pressure is ${airPressure} mbar.`)
+            callback(undefined, `Weather description in Serbian: ${desc}. It is currently ${temp} degrees out. Temperature high at the moment is ${maxTemp} degrees, while the current minimum temperature is ${minTemp} degrees. Air pressure is ${airPressure} mbar.`)
         }
     })
 }
